@@ -40,7 +40,7 @@ router.get(
         title: title,
         description: description,
         tag: tag,
-        user: req.user.id,
+        user: req.user.id,  
       });
       const savedNote = await note.save();
 
